@@ -1,0 +1,113 @@
+header{
+    /* background: #DCC7AA;*/
+     
+     text-align: center;
+     height: 300px;
+     background-image: url(background_crop.jpg);
+     font-family: 'Work Sans', sans-serif;
+     /*background-size: container; for containing images cover for*/
+     opacity: 0.8;
+     filter:alpha(opacity=80);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: bottom;
+     
+ }
+ 
+ h1 {
+    
+     font-size: 4em;
+     -webkit-margin-before: 0;
+     -webkit-margin-after: 0;
+ }
+ 
+ h2{
+     margin-top: 0;
+     font-size: 1.75em;
+     font-style: italic;
+ 
+ }
+ 
+ h3{
+     font-size: 2em;
+     margin-left: 30px;
+     margin-bottom: 0;
+ }
+
+body{
+    background: rgb(241, 238, 231);
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main{
+    margin: 30px;
+}
+
+
+/* This was for making main/body text into columns (gotta figure it out)*/
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    background: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav ul a{
+    color:#C06014;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-style: bold;
+}
+
+.title{
+    font-size: 1em;
+}
+
+.project-title{
+    font-size: 1.5em;
+    font-style: bold;
+    color: #C06014;
+}
+
+p{
+    padding: 50px;
+    
+}
+
+.content{
+    padding: 15px;
+}
+.headshot{
+    width: 300px;
+    vertical-align: middle;
+
+}
+
+#CV{
+    text-align: center;
+    padding: 50px;
+}
+
+/* Center anything in both dimensions
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    aligin-items: center;
+*/
