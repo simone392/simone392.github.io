@@ -121,3 +121,16 @@ a{
     text-align: center;
     color: #6b2d2d;
 }
+
+#image{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#caption{
+    font-size: 1.85vh;
+    text-align: center;
+    font-style: italic;
+}
