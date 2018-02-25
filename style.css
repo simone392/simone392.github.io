@@ -2,7 +2,7 @@ header{
     /* background: #DCC7AA;*/
      
      text-align: center;
-     height: 300px;
+     height: 400px;
      background-image: url(background_crop.jpg);
      font-family: 'Work Sans', sans-serif;
      /*background-size: container; for containing images cover for*/
@@ -111,3 +111,13 @@ p{
     justify-content: center;
     aligin-items: center;
 */
+
+a{
+    color: #6b2d2d;
+}
+
+#quote{
+    font-style: italic;
+    text-align: center;
+    color: #6b2d2d;
+}
