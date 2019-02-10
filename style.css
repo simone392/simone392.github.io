@@ -2,7 +2,7 @@ header{
     /* background: #DCC7AA;*/
      
      text-align: center;
-     height: 400px;
+     height: 200px;
      background-image: url(background_crop.jpg);
      font-family: 'Work Sans', sans-serif;
      /*background-size: container; for containing images cover for*/
@@ -76,6 +76,10 @@ nav ul a{
     font-style: bold;
 }
 
+.current{
+    background-color: rgb(185, 133, 90);
+}
+
 .title{
     font-size: 1em;
 }
@@ -86,6 +90,10 @@ nav ul a{
     color: #C06014;
 }
 
+.bio{
+    padding-left: 50px;
+}
+
 p{
     padding: 50px;
     
@@ -94,8 +102,9 @@ p{
 .content{
     padding: 15px;
 }
+
 .headshot{
-    width: 300px;
+    width: 400px;
     vertical-align: middle;
 
 }
@@ -135,3 +144,4 @@ a{
     font-style: italic;
     margin-top: -50px;
 }
+
